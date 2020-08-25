@@ -8,12 +8,20 @@ const Hamburger = ({ children }) => {
     setOpen(!open);
   }
 
+  const renderProps = {
+    open
+  }
+
   return (
+    <>
     <div class={`hamburger ${open ? 'open' : ''}`} onClick={() => toggle()}>
       <div/>
       <div/>
       <div/>
     </div>
+
+    {typeof children === 'function' ? children(renderProps) : children}
+    </>
   )
 }
 

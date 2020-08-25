@@ -3,6 +3,7 @@ import './Navbar.css';
 import Logo from '../../images/Logo.png';
 import PageLinks from '../PageLinks';
 import Hamburger from '../Hamburger';
+import RightNav from '../RightNav';
 
 const Navbar = () => {
   return ( 
@@ -11,7 +12,9 @@ const Navbar = () => {
       <PageLinks className="navbar-links" />
       
       <Hamburger>
-        
+        {({open}) => (
+          <RightNav showing={open}/>    
+        )}
       </Hamburger>
     </nav>
   )

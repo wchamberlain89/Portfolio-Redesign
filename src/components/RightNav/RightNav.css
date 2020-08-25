@@ -1,0 +1,24 @@
+.rightNav {
+  background: var(--color-background-secondary);
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 998;
+  display: none;
+  opacity: 0;
+  transition: var(--transition);
+  transform: translateX(100%);
+}
+
+@media screen and (max-width: 768px) {
+  .rightNav {
+    display: flex;
+  }
+}
+
+.rightNav.showing {
+  opacity: 1;
+  transform: translateX(0);
+}

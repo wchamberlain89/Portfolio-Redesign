@@ -61,8 +61,23 @@ html, body, div, span, applet, object, iframe,
     --color-background-secondary: var(--color-yellow-2);
     --color-background-accent: var(--color-blue-1);
 
+    --transition: all 0.3s linear;
     --size-tablet: 768px;
-    font-family: var(--font-family-secondary);
+    font-family: var(--font-family-primary);
+
+    font-size: 16px;
+  }
+
+  @media screen and (max-width: 1024px) {
+    html {
+      font-size: 14px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    html {
+      font-size: 12px;
+    }
   }
 
   body {

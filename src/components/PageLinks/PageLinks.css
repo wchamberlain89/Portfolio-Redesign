@@ -1,3 +1,11 @@
+.page-links a {
+  font-family: var(--font-family-secondary);
+}
+
+.page-links a:hover {
+  color: var(--color-text-secondary);
+}
+
 .navbar-links {
   display: flex;
   align-items: center;
@@ -9,11 +17,26 @@
   }
 }
 
-
-.navbar-links li {
-  margin-right: 1.25em;
+.navbar-links li + * {
+  margin-left: 1.25em;
 }
 
 .navbar-links a {
   font-size: 1.125em;
+}
+
+.rightNav-links {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4em;
+}
+
+.rightNav-links li {
+  padding: 30px 0;
+}
+
+.rightNav-links a {
+  font-size: 3.5rem;
 }
