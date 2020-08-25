@@ -1,0 +1,19 @@
+.navbar-links {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-links {
+    display: none;
+  }
+}
+
+
+.navbar-links li {
+  margin-right: 1.25em;
+}
+
+.navbar-links a {
+  font-size: 1.125em;
+}
