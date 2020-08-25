@@ -1,0 +1,55 @@
+.project {
+  background-color: var(--color-background-accent);
+  margin-top: 10em;
+}
+
+.project.reversed .project__container {
+  flex-direction: row-reverse;
+}
+
+.project__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--color-text-secondary);
+  padding: 2em 0;
+}
+
+.project__img {
+  margin: -4em 0;
+  max-width: 30%;
+}
+
+.project__info {
+  max-width: 50%;
+}
+.project__title {
+  font-family: var(--font-family-secondary);
+  
+  font-size: 2em;
+  letter-spacing: .1em;
+}
+
+.project__description {
+  line-height: 1.5;
+  margin-top: 2em;
+}
+
+.project__skills {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: .5em;
+}
+
+.project__skill {
+  padding: 5px 15px;
+  background-color: var(--color-background-primary);
+  border-radius: 200px;
+  color: var(--color-text-primary);
+  font-size: .85em;
+  margin-top: .5em;
+}
+
+.project__skill{
+  margin-right: 1em;
+}

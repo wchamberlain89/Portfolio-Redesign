@@ -1,4 +1,5 @@
 import React from 'react';
+import './Skills.css';
 import DesktopIcon from '../../images/desktop-icon.png';
 import DesignIcon from '../../images/design-icon.png';
 
@@ -24,17 +25,19 @@ const skills = [
 ]
 
 const Skills = () => {
-  <div className="skills__container">
-      {
-        skills.map((card) => (
-          <div className="skills__card">
-            <img src={card.icon} alt="Skill Icon" className="skills__card__img"/>
-            <h5 className="skills__card__title">{card.title}</h5>
-            <p className="skills__card__content">{card.content}</p>
-          </div>
-        ))
-      }
-  </div>
+  return (
+    <div className="skills__container">
+        {
+          skills.map((card) => (
+            <div className="skills__card">
+              <img src={card.icon} alt="Skill Icon" className="skills__card__img"/>
+              <h5 className="skills__card__title">{card.title}</h5>
+              <p className="skills__card__content">{card.content}</p>
+            </div>
+          ))
+        }
+    </div>
+  )
 }
 
 export default Skills;

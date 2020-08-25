@@ -68,6 +68,16 @@ html, body, div, span, applet, object, iframe,
     font-size: 16px;
   }
 
+  body {
+    background-color: var(--color-background-primary);
+  }
+
+  .section__header {
+    font-family: var(--font-family-secondary);
+    font-size: 3em;
+    letter-spacing: 0.02em;
+  }
+
   @media screen and (max-width: 1024px) {
     html {
       font-size: 14px;
@@ -78,8 +88,4 @@ html, body, div, span, applet, object, iframe,
     html {
       font-size: 12px;
     }
-  }
-
-  body {
-    background-color: var(--color-background-primary);
   }
