@@ -5,6 +5,7 @@ import Layout from '../components/Layout';
 import Hero from "../components/Hero";
 import Skills from "../components/Skills";
 import FeaturedWork from "../components/FeaturedWork";
+import Contact from "../components/Contact";
 
 const IndexPage = () => (
   <Layout>
@@ -14,6 +15,7 @@ const IndexPage = () => (
       <Skills />
     </PageContainer>
     <FeaturedWork />
+    <Contact />
   </Layout>
 )
 

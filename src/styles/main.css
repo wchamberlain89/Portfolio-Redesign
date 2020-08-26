@@ -63,6 +63,11 @@ html, body, div, span, applet, object, iframe,
 
     --transition: all 0.3s linear;
     --size-tablet: 768px;
+
+    --spacing-xl: 10em;
+    --spacing-l: 5em;
+    --spacing-m: 3em;
+    --spacing-s: 1em;
     font-family: var(--font-family-primary);
 
     font-size: 16px;
@@ -76,6 +81,7 @@ html, body, div, span, applet, object, iframe,
     font-family: var(--font-family-secondary);
     font-size: 3em;
     letter-spacing: 0.02em;
+    text-transform: uppercase;
   }
 
   @media screen and (max-width: 1024px) {

@@ -1,0 +1,36 @@
+.contact-section {
+  margin-top: var(--spacing-xl);
+}
+
+.contact-section > .section__header {
+  text-align: center;
+}
+
+.contact-form__header {
+  margin-top: var(--spacing-m);
+  color: var(--color-text-secondary);
+  font-size: 1.125em;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px;
+  width: 66%;
+  margin: var(--spacing-xl) auto var(--spacing-xl) auto;
+  border-radius: 10px;
+  background-color: var(--color-background-accent);
+}
+
+.contact-form__input {
+  margin-top: var(--spacing-s);
+  font-family: var(--font-family-primary);
+  padding: 5px 15px;
+}
+
+.contact-form__submit {
+  margin-top: 1.75em;
+  background-color: transparent;
+  border: 0;
+  color: var(--color-text-secondary);
+}
