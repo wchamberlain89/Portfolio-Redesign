@@ -1,0 +1,21 @@
+.footer__container {
+  height: 20em;
+  background-color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__container .footer__icons {
+  display: flex;
+}
+
+.footer__container .social-icon__wrapper {
+  height: 5em;
+  width: 5em;
+  margin-right: var(--spacing-m);
+}
+
+.footer__container .social-icon__wrapper:last-child {
+  margin-right: 0;
+}

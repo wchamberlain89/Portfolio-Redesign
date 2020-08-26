@@ -64,10 +64,10 @@ html, body, div, span, applet, object, iframe,
     --transition: all 0.3s linear;
     --size-tablet: 768px;
 
-    --spacing-xl: 10em;
-    --spacing-l: 5em;
-    --spacing-m: 3em;
-    --spacing-s: 1em;
+    --spacing-xl: 10rem;
+    --spacing-l: 5rem;
+    --spacing-m: 3rem;
+    --spacing-s: 1rem;
     font-family: var(--font-family-primary);
 
     font-size: 16px;
