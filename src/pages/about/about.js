@@ -3,7 +3,7 @@ import './about.css';
 import Layout from '../../components/Layout';
 import PageContainer from '../../components/PageContainer';
 import AboutHero from '../../images/about-hero.png';
-import Blob from '../../images/blob.png';
+import Blob from '../../images/Blob.png';
 
 const About = () => {
   return (
